@@ -1,3 +1,29 @@
 body{
-    background-image: url("../img/background.jpg")
+    background-image: url("../img/background-for-mobile.jpg")
 }
+
+.huvud-meny {
+    display: grid; 
+    grid-template-columns: (4,1fr);
+    grid-template-rows: (1,1fr);
+}
+
+.huvud-meny a{
+    margin: 10px;
+    color: rgba(255, 0, 0, 0.842);
+}
+
+.hem{
+    grid-column: 1/2;
+}
+.meny{
+    grid-column: 2/3;
+}
+.recensioner{
+    grid-column: 3/4;
+}
+.om-oss{
+    grid-column: 4/5;
+}
+
+
