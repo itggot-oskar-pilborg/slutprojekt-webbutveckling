@@ -1,15 +1,48 @@
 body{
-    background-image: url("../img/background-for-mobile.jpg")
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    width: 460px;
+    background-image: url("../img/background-for-mobile.jpg");
+    grid-template-columns: (6,1fr);
+    grid-template-rows: (9,1fr);
+}
+
+.top-meny{
+    grid-column: 3/5;
+    grid-row: 1/2;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sök-hjälp{
+    color:white;
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+.sök{
+    position:static;
+
+}
+.logga{
+    width: 50%;
+    height: auto;
 }
 
 .huvud-meny {
+    margin: 0px;
+    padding: 0px;
     display: grid; 
     grid-template-columns: (4,1fr);
     grid-template-rows: (1,1fr);
+    grid-column: 3/5;
+    grid-row: 3/8;
+    background-color: limegreen;
 }
 
 .huvud-meny a{
-    margin: 10px;
+    margin: 15px;
     color: rgba(255, 0, 0, 0.842);
 }
 
@@ -25,5 +58,3 @@ body{
 .om-oss{
     grid-column: 4/5;
 }
-
-
