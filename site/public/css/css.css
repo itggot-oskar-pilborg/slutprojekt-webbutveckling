@@ -1,3 +1,8 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 body{
     display: grid;
     margin: 0px;
@@ -269,6 +274,10 @@ main{
 
     .desktop h3{
         grid-row: 1/2;
+    }
+
+    html{
+        overflow: visible;
     }
 
 }
