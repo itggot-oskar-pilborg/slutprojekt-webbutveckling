@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Startsida</title>
     <link rel="stylesheet" href="css/css.css">
+    <script src="./js/toggle_menu.js"></script>
 </head>
 <body>
     <main>
@@ -20,12 +21,22 @@
     <a href="om-oss.html" class="om-oss">Om oss</a>
 </nav>
 
+<i class="arrow down" onclick="toggleDropDown()"></i>
+    <div class="dropdown">
+        <ul>
+            <li><a href="/lol.html">LOL</a></li>
+            <li><a href="/dota.html">Dota</a></li>
+            <li><a href="/overwatch.html">Overwatch</a></li>
+            <li><a href="/wow.html">WoW</a></li>
+        </ul>
+    </div>
+
 <div class="lol-page">
     <img src="../img/lol.jpg" alt="Game logo">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac sodales turpis, id tincidunt leo. Morbi viverra congue eros, eu cursus metus molestie eu. Ut a urna vehicula, elementum eros vel, commodo eros. Sed id fringilla metus, eget semper eros. Nunc vulputate nibh eget nunc posuere, sed posuere arcu pharetra. In arcu nulla, bibendum vitae rutrum eu, maximus ut risus. Aliquam vitae condimentum quam, nec consectetur nulla.
         Sed at sodales elit, ac blandit tellus. Etiam iaculis condimentum fermentum. Cras finibus nunc sit amet venenatis vehicula. Mauris interdum erat arcu, scelerisque eleifend mi viverra ut. Nam varius, odio ut mattis rhoncus, nulla lectus scelerisque justo, sit amet porttitor velit neque semper felis.
     </p>
-    <a href="/dota.html"><i class="arrow right"></i></i></a>
+    <a href="/dota.html"><i class="arrow right"></i></a>
 </div>
     </main>
 </body>
