@@ -22,7 +22,6 @@ main{
 }
 
 .top-meny{
-    height: 100px;
     display: grid;
     grid-row: 2/8;
     grid-column: 1/19;
@@ -335,10 +334,7 @@ i {
 
    
     .top-meny{
-        height: 100px;
         display: grid;
-        grid-row: 4/8;
-        grid-column: 1/6;
         grid-row: 2/8;
         grid-column: 1/19;
         grid-template-columns: repeat(5,12vw);
